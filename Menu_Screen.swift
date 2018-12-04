@@ -20,41 +20,6 @@ class Menu_Screen: UIViewController, UITableViewDelegate, UITableViewDataSource 
   //Creating a bool variable
   var Searching = false
   
-  
-  //========FUNCTIONS==================================================================================
-  
-  public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-  {
-    if Searching
-    {
-     return(SearchingItem.count) 
-    } else {
-      return(list.count)
-    }
-  }
-  
-  public func tableView(_ tableView: UITablView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-  {
-    let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-    
-    if Searching {
-      cell.textLabel?.text = SearchItem[indexPath.row]
-    } 
-    else {
-      cell.textLabel?.text = list[indexPath.row]
-    }
-    
-    return(cell)
-  }
-  
-  public func MenuSearch(_ MenuSearch: UISearchBar, textDidChange searchText: String)
-  {
-    SearchItem = list.filter({$0.prefix(searchText.count) == searchText})
-    Searching = true
-    MenuList.reloadData()
-  }
-  
-  
   override func viewDidLoad() {
     super.viewDidLoad()
   }
@@ -64,4 +29,39 @@ class Menu_Screen: UIViewController, UITableViewDelegate, UITableViewDataSource 
   }
 }
 
-//Maye make these public extensions.
+extension Menu_Screen: UITableViewDelegate, UITableViewDataSource {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    if Searching {
+      return SearchItem.count
+    } else {
+      return list.count
+    }
+  }
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    UITableViewCell {
+      let Cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
+      
+      if Searching {
+        Cell.textLabel?.text = SearchItem[indexPath.row]
+      } else {
+        Cell.textLabel?.text = list[indexPath.row]
+      }
+      return Cell
+    }
+  }
+  
+  extension Menu_Screen: UISearchBarDelegate {
+    
+    func searchBar(_ searchBar, textDidChange searchText: String) {
+      SearchItem = list.filter({$0.lowercased().prefix(searchText.count) == searchText.lowercased()})
+      Searching = true
+      MenuList.reloadData()
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+      Searching = false
+      searchBar.text = ""
+      MenuList.reloadData()
+    }
+  }
+}
