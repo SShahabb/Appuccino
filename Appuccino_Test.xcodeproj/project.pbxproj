@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC059B4B21B9B01000F21914 /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC059B4A21B9B01000F21914 /* CoffeeShop.swift */; };
+		ACC7819021B7262100E6B350 /* Map_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7818F21B7262100E6B350 /* Map_Screen.swift */; };
+		ACD1420C21B07FC700CC42CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1420B21B07FC700CC42CC /* AppDelegate.swift */; };
+		ACD1421321B07FC700CC42CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD1421121B07FC700CC42CC /* Main.storyboard */; };
+		ACD1421521B07FC700CC42CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD1421421B07FC700CC42CC /* Assets.xcassets */; };
+		ACD1421821B07FC700CC42CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD1421621B07FC700CC42CC /* LaunchScreen.storyboard */; };
+		ACD1422321B07FC700CC42CC /* Appuccino_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1422221B07FC700CC42CC /* Appuccino_TestTests.swift */; };
+		ACD1422E21B07FC700CC42CC /* Appuccino_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1422D21B07FC700CC42CC /* Appuccino_TestUITests.swift */; };
+		ACD1423E21B0860F00CC42CC /* Menu_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1423D21B0860F00CC42CC /* Menu_Screen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD1421F21B07FC700CC42CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD1420021B07FC700CC42CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD1420721B07FC700CC42CC;
+			remoteInfo = Appuccino_Test;
+		};
+		ACD1422A21B07FC700CC42CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD1420021B07FC700CC42CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD1420721B07FC700CC42CC;
+			remoteInfo = Appuccino_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC059B4A21B9B01000F21914 /* CoffeeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+		ACC7818F21B7262100E6B350 /* Map_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Screen.swift; sourceTree = "<group>"; };
+		ACD1420821B07FC700CC42CC /* Appuccino_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appuccino_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD1420B21B07FC700CC42CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD1421221B07FC700CC42CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD1421421B07FC700CC42CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD1421721B07FC700CC42CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD1421921B07FC700CC42CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD1421E21B07FC700CC42CC /* Appuccino_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appuccino_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD1422221B07FC700CC42CC /* Appuccino_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appuccino_TestTests.swift; sourceTree = "<group>"; };
+		ACD1422421B07FC700CC42CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD1422921B07FC700CC42CC /* Appuccino_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appuccino_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD1422D21B07FC700CC42CC /* Appuccino_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appuccino_TestUITests.swift; sourceTree = "<group>"; };
+		ACD1422F21B07FC700CC42CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD1423D21B0860F00CC42CC /* Menu_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Screen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD1420521B07FC700CC42CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1421B21B07FC700CC42CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1422621B07FC700CC42CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD141FF21B07FC700CC42CC = {
+			isa = PBXGroup;
+			children = (
+				ACD1420A21B07FC700CC42CC /* Appuccino_Test */,
+				ACD1422121B07FC700CC42CC /* Appuccino_TestTests */,
+				ACD1422C21B07FC700CC42CC /* Appuccino_TestUITests */,
+				ACD1420921B07FC700CC42CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD1420921B07FC700CC42CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1420821B07FC700CC42CC /* Appuccino_Test.app */,
+				ACD1421E21B07FC700CC42CC /* Appuccino_TestTests.xctest */,
+				ACD1422921B07FC700CC42CC /* Appuccino_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD1420A21B07FC700CC42CC /* Appuccino_Test */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1420B21B07FC700CC42CC /* AppDelegate.swift */,
+				ACD1423D21B0860F00CC42CC /* Menu_Screen.swift */,
+				ACC7818F21B7262100E6B350 /* Map_Screen.swift */,
+				AC059B4A21B9B01000F21914 /* CoffeeShop.swift */,
+				ACD1421121B07FC700CC42CC /* Main.storyboard */,
+				ACD1421421B07FC700CC42CC /* Assets.xcassets */,
+				ACD1421621B07FC700CC42CC /* LaunchScreen.storyboard */,
+				ACD1421921B07FC700CC42CC /* Info.plist */,
+			);
+			path = Appuccino_Test;
+			sourceTree = "<group>";
+		};
+		ACD1422121B07FC700CC42CC /* Appuccino_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1422221B07FC700CC42CC /* Appuccino_TestTests.swift */,
+				ACD1422421B07FC700CC42CC /* Info.plist */,
+			);
+			path = Appuccino_TestTests;
+			sourceTree = "<group>";
+		};
+		ACD1422C21B07FC700CC42CC /* Appuccino_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1422D21B07FC700CC42CC /* Appuccino_TestUITests.swift */,
+				ACD1422F21B07FC700CC42CC /* Info.plist */,
+			);
+			path = Appuccino_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD1420721B07FC700CC42CC /* Appuccino_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD1423221B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_Test" */;
+			buildPhases = (
+				ACD1420421B07FC700CC42CC /* Sources */,
+				ACD1420521B07FC700CC42CC /* Frameworks */,
+				ACD1420621B07FC700CC42CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appuccino_Test;
+			productName = Appuccino_Test;
+			productReference = ACD1420821B07FC700CC42CC /* Appuccino_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD1421D21B07FC700CC42CC /* Appuccino_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD1423521B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_TestTests" */;
+			buildPhases = (
+				ACD1421A21B07FC700CC42CC /* Sources */,
+				ACD1421B21B07FC700CC42CC /* Frameworks */,
+				ACD1421C21B07FC700CC42CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD1422021B07FC700CC42CC /* PBXTargetDependency */,
+			);
+			name = Appuccino_TestTests;
+			productName = Appuccino_TestTests;
+			productReference = ACD1421E21B07FC700CC42CC /* Appuccino_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD1422821B07FC700CC42CC /* Appuccino_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD1423821B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_TestUITests" */;
+			buildPhases = (
+				ACD1422521B07FC700CC42CC /* Sources */,
+				ACD1422621B07FC700CC42CC /* Frameworks */,
+				ACD1422721B07FC700CC42CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD1422B21B07FC700CC42CC /* PBXTargetDependency */,
+			);
+			name = Appuccino_TestUITests;
+			productName = Appuccino_TestUITests;
+			productReference = ACD1422921B07FC700CC42CC /* Appuccino_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD1420021B07FC700CC42CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Guest User";
+				TargetAttributes = {
+					ACD1420721B07FC700CC42CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ACD1421D21B07FC700CC42CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD1420721B07FC700CC42CC;
+					};
+					ACD1422821B07FC700CC42CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD1420721B07FC700CC42CC;
+					};
+				};
+			};
+			buildConfigurationList = ACD1420321B07FC700CC42CC /* Build configuration list for PBXProject "Appuccino_Test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD141FF21B07FC700CC42CC;
+			productRefGroup = ACD1420921B07FC700CC42CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD1420721B07FC700CC42CC /* Appuccino_Test */,
+				ACD1421D21B07FC700CC42CC /* Appuccino_TestTests */,
+				ACD1422821B07FC700CC42CC /* Appuccino_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD1420621B07FC700CC42CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD1421821B07FC700CC42CC /* LaunchScreen.storyboard in Resources */,
+				ACD1421521B07FC700CC42CC /* Assets.xcassets in Resources */,
+				ACD1421321B07FC700CC42CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1421C21B07FC700CC42CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1422721B07FC700CC42CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD1420421B07FC700CC42CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7819021B7262100E6B350 /* Map_Screen.swift in Sources */,
+				AC059B4B21B9B01000F21914 /* CoffeeShop.swift in Sources */,
+				ACD1423E21B0860F00CC42CC /* Menu_Screen.swift in Sources */,
+				ACD1420C21B07FC700CC42CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1421A21B07FC700CC42CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD1422321B07FC700CC42CC /* Appuccino_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD1422521B07FC700CC42CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD1422E21B07FC700CC42CC /* Appuccino_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD1422021B07FC700CC42CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD1420721B07FC700CC42CC /* Appuccino_Test */;
+			targetProxy = ACD1421F21B07FC700CC42CC /* PBXContainerItemProxy */;
+		};
+		ACD1422B21B07FC700CC42CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD1420721B07FC700CC42CC /* Appuccino_Test */;
+			targetProxy = ACD1422A21B07FC700CC42CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD1421121B07FC700CC42CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD1421221B07FC700CC42CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD1421621B07FC700CC42CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD1421721B07FC700CC42CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD1423021B07FC700CC42CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD1423121B07FC700CC42CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD1423321B07FC700CC42CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD1423421B07FC700CC42CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACD1423621B07FC700CC42CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appuccino_Test.app/Appuccino_Test";
+			};
+			name = Debug;
+		};
+		ACD1423721B07FC700CC42CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appuccino_Test.app/Appuccino_Test";
+			};
+			name = Release;
+		};
+		ACD1423921B07FC700CC42CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Appuccino_Test;
+			};
+			name = Debug;
+		};
+		ACD1423A21B07FC700CC42CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appuccino_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Appuccino-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Appuccino_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD1420321B07FC700CC42CC /* Build configuration list for PBXProject "Appuccino_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD1423021B07FC700CC42CC /* Debug */,
+				ACD1423121B07FC700CC42CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD1423221B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD1423321B07FC700CC42CC /* Debug */,
+				ACD1423421B07FC700CC42CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD1423521B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD1423621B07FC700CC42CC /* Debug */,
+				ACD1423721B07FC700CC42CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD1423821B07FC700CC42CC /* Build configuration list for PBXNativeTarget "Appuccino_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD1423921B07FC700CC42CC /* Debug */,
+				ACD1423A21B07FC700CC42CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD1420021B07FC700CC42CC /* Project object */;
+}
