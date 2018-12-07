@@ -16,6 +16,7 @@
 		ACD1422321B07FC700CC42CC /* Appuccino_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1422221B07FC700CC42CC /* Appuccino_TestTests.swift */; };
 		ACD1422E21B07FC700CC42CC /* Appuccino_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1422D21B07FC700CC42CC /* Appuccino_TestUITests.swift */; };
 		ACD1423E21B0860F00CC42CC /* Menu_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1423D21B0860F00CC42CC /* Menu_Screen.swift */; };
+		ACEAFD0921BB22DA00CE3FFA /* Config_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFD0821BB22DA00CE3FFA /* Config_Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ACD1422D21B07FC700CC42CC /* Appuccino_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appuccino_TestUITests.swift; sourceTree = "<group>"; };
 		ACD1422F21B07FC700CC42CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD1423D21B0860F00CC42CC /* Menu_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Screen.swift; sourceTree = "<group>"; };
+		ACEAFD0821BB22DA00CE3FFA /* Config_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config_Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ACC7818F21B7262100E6B350 /* Map_Screen.swift */,
 				AC059B4A21B9B01000F21914 /* CoffeeShop.swift */,
 				ACD1421121B07FC700CC42CC /* Main.storyboard */,
+				ACEAFD0821BB22DA00CE3FFA /* Config_Screen.swift */,
 				ACD1421421B07FC700CC42CC /* Assets.xcassets */,
 				ACD1421621B07FC700CC42CC /* LaunchScreen.storyboard */,
 				ACD1421921B07FC700CC42CC /* Info.plist */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEAFD0921BB22DA00CE3FFA /* Config_Screen.swift in Sources */,
 				ACC7819021B7262100E6B350 /* Map_Screen.swift in Sources */,
 				AC059B4B21B9B01000F21914 /* CoffeeShop.swift in Sources */,
 				ACD1423E21B0860F00CC42CC /* Menu_Screen.swift in Sources */,

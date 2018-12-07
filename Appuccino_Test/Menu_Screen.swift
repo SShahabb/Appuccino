@@ -2,8 +2,8 @@
 //  Menu_Screen.swift
 //  Appuccino_Test
 //
-//  Created by Guest User on 11/29/18.
-//  Copyright © 2018 Guest User. All rights reserved.
+//  Created by Jess on 12/7/18.
+//  Copyright © 2018 Jess. All rights reserved.
 //
 
 import UIKit
@@ -13,6 +13,9 @@ class Menu_Screen: UIViewController // UITableViewDelegate, UITableViewDataSourc
     //references to other view controllers
     var MapVC: Map_Screen?
     //var 3rd screen
+    
+    //object for annotation segue
+    var pin: CoffeeShop!
     
     @IBOutlet weak var Points: UILabel!
     
@@ -108,17 +111,5 @@ extension Menu_Screen: UISearchBarDelegate {
     
     
 }
-
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 
