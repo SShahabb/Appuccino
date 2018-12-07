@@ -17,16 +17,17 @@ class Menu_Screen: UIViewController//, UITableViewController
     
     @IBOutlet weak var MenuList: UITableView!
     
-    //let list = ["Drip Coffee", "Mocha", "Latte", "Cappuccino", "Americano", "Espresso", "Chai Latte", "Hot Tea", "Cider", "Hot Chocolate", "Iced Mocha", "Iced Latte", "Cold Brew", "Iced Tea", "Frozen Mocha", "Frappe", "Italian Soda", "Smoothie-Strawberry", "Smoothie-Strawberry/Banana", "Bagel W/Cream Cheese", "Bagel W/Jam", "Plain Bagel", "Biscotti", "Brownies", "Cinnamon Rolls", "Cookies", "Muffins", "Scones", "Strudel", "Yogurt Parfait", "Breakfast Sammich", "Breakfast Wrap", "Avacado Toast", "Santa Fe Toast"] //was a var
-    
-    
-    //let list: Array<Array<<String>> = [["Drip Coffee", "Mocha", "Latte", "Cappuccino", "Americano", "Espresso", "Iced Mocha", "Iced Latte", "Cold Brew", "Frozen Mocha", "Frappe"], ["Chai Latte", "Hot Tea", "Iced Tea"], ["Italian Soda", "Cider"], ["Smoothie-Strawberry", "Smoothie-Strawberry/Banana", "Peach", "Wild Berry", "Pina Colada"], ["Bagel W/Cream Cheese", "Bagel W/Jam", "Plain Bagel", "Biscotti", "Brownies", "Cinnamon Rolls", "Cookies", "Muffins", "Scones", "Strudel"], ["Yogurt Parfait", "Breakfast Sammich", "Breakfast Wrap", "Avacado Toast", "Santa Fe Toast"]]
    
-    let list: Array<Array<<String>> = [["Coffee":"Drip Coffee", "Coffee":"Mocha", "Coffee":"Latte", "Coffee":"Cappuccino", "Coffee":"Americano", "Coffee":"Espresso", "Coffee":"Iced Mocha", "Coffee":"Iced Latte", "Coffee":"Cold Brew", "Coffee":"Frozen Mocha", "Coffee":"Frappe"], ["Tea":"Chai Latte", "Tea":"Hot Tea", "Tea":"Iced Tea"], ["Misc.":"Italian Soda", "Misc.":"Cider"], ["Smoothies":"Smoothie-Strawberry", "Smoothies":"Smoothie-Strawberry/Banana", "Smoothies":"Peach", "Smoothies":"Wild Berry", "Smoothies":"Pina Colada"], ["Bakery":"Bagel W/Cream Cheese", "Bakery":"Bagel W/Jam", "Bakery":"Plain Bagel", "Bakery":"Biscotti", "Bakery":"Brownies", "Bakery":"Cinnamon Rolls", "Bakery":"Cookies", "Bakery":"Muffins", "Bakery":"Scones", "Bakery":"Strudel"], ["Breakfast":"Yogurt Parfait", "Breakfast":"Breakfast Sammich", "Breakfast":"Breakfast Wrap", "Breakfast":"Avacado Toast", "Breakfast":"Santa Fe Toast"]]
+    let list = [
+        Coffee: "Drip Coffee", "Mocha", "Latte", "Cappuccino", "Americano", "Espresso", "Iced Mocha", "Iced Latte", "Cold Brew", "Frozen Mocha", "Frappe"
+        Chai Latte, "Hot Tea", "Iced Tea",
+        Misc.: "Italian Soda", "Cider", 
+        Smoothies: "Smoothie-Strawberry", "Smoothie-Strawberry/Banana", "Peach", "Wild Berry", "Pina Colada", 
+        Bakery: "Bagel W/Cream Cheese", "Bagel W/Jam", "Plain Bagel", "Biscotti", "Brownies", "Cinnamon Rolls", "Cookies", "Muffins", "Scones", "Strudel", 
+        Breakfast: "Yogurt Parfait", "Breakfast Sammich", "Breakfast Wrap", "Avocado Toast", "Santa Fe Toast"
+    ]
     
-    
-    let section: Array<String> = ["Coffee", "Tea", "Misc", "Smoothies", "Bakery", "Breakfast"] 
-    
+    var itemArray = [String]() 
     var SearchItem = [String]()
     var Searching = false
     
