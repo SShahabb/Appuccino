@@ -60,11 +60,6 @@ class Map_Screen: UIViewController {
         mapView.setRegion(region, animated: true)
     }
     
-    //make a function to let the user add pins themselves
-    //and call the move map to the new pin so they can see what they made
-    //ConfigVC?.addShop(title: title, location: location, lat: lat, lon: lon)
-    //moveTo(shop: shop)
-    
     //setup the delegates
     func setupDelegates() {
         mapView.delegate = self
@@ -89,9 +84,11 @@ class Map_Screen: UIViewController {
         self.mapView.frame = self.view.bounds
         setupDelegates()
         makeShops()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         for shop in coffeeShops { mapView.addAnnotation(shop) }
     }
-    override func viewWillAppear(_ animated: Bool) { super.viewWillAppear(animated) }
     override func viewWillDisappear(_ animated: Bool) { super.viewWillDisappear(animated) }
     override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
 }
@@ -119,7 +116,6 @@ extension Map_Screen: CLLocationManagerDelegate {
 //extension for annotation pin behavior
 extension Map_Screen: MKMapViewDelegate {
     @objc func viewShopMenu() { self.tabBarController?.selectedIndex = 0 }
-    //@objc func viewShop() { self.performSegue(withIdentifier: "MapToMenu", sender: nil) } //this didnt work as intended
     //creates pop up window when clicking on a coffee shop annotation
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         guard let annotation = annotation as? CoffeeShop else { return nil }

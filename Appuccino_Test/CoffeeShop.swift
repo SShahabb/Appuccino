@@ -13,7 +13,7 @@ class CoffeeShop: NSObject, MKAnnotation {
     let title: String?
     let locationName: String
     let coordinate: CLLocationCoordinate2D
-    //var menu = [String]() //init from jess' coffee menu?
+    //var menu = [String]() //init from jess' coffee menu
     
     //initializes the coffee shop object
     init(title: String, locationName: String, coordinate: CLLocationCoordinate2D) {
